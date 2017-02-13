@@ -88,6 +88,12 @@ var utils = (function () {
 
     }
 
+    /**
+     * 获取classname
+     * @param strClass
+     * @param curEle
+     * @returns {ary}
+     */
     function getByClass(strClass, curEle) {
         curEle = curEle || document;
         if (flg) {
@@ -113,6 +119,11 @@ var utils = (function () {
         return ary;
     }
 
+    /**
+     * 添加classname
+     * @param curEle
+     * @param strClass
+     */
     function addClass(curEle, strClass) {
         var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);
         for (var i = 0; i < aryClass.length; i++) {
