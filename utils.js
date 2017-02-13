@@ -133,6 +133,11 @@ var utils = (function () {
         }
     }
 
+    /**
+     * 判断是否有这个classname
+     * @param curEle
+     * @param cName
+     */
     function hasClass(curEle, cName) {
         var reg = new RegExp('(^| +)' + cName + '( +|$)');
         return reg.test(curEle.className);
