@@ -205,6 +205,11 @@ var utils = (function () {
         curEle.style[attr] = value;
     }
 
+    /**
+     * 设置一组css 
+     * @param curEle
+     * @param opt
+     */
     function setGroupCss(curEle, opt) {
         if (opt.toString() !== '[object Object]') return;
         for (var attr in opt) {
