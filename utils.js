@@ -147,7 +147,7 @@ var utils = (function () {
     /**
      * 删除这个classname
      * @param curEle
-     * @param cName
+     * @param strClass
      */
     function removeClass(curEle, strClass) {
         var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);
@@ -159,6 +159,11 @@ var utils = (function () {
         }
     }
 
+    /**
+     * 获取css 
+     * @param curEle
+     * @param cName
+     */
     function getCss(curEle, attr) {
         var val = null;
         var reg = null;
