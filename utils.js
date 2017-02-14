@@ -143,6 +143,12 @@ var utils = (function () {
         return reg.test(curEle.className);
     }
 
+
+    /**
+     * 删除这个classname
+     * @param curEle
+     * @param cName
+     */
     function removeClass(curEle, strClass) {
         var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);
         for (var i = 0; i < aryClass.length; i++) {
