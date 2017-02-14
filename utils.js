@@ -181,6 +181,12 @@ var utils = (function () {
         return reg.test(val) ? parseFloat(val) : val;
     }
 
+    /**
+     * 设置css 
+     * @param curEle
+     * @param attr
+     * @param value
+     */
     function setCss(curEle, attr, value) {
         if (attr === 'float') {
             curEle.style.cssFloat = value;
