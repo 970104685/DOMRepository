@@ -236,6 +236,11 @@ var utils = (function () {
         }
     }
 
+    /**
+     * 获取元素  指定元素 
+     * @param curEle
+     * @param ele
+     */
     function getChildren(curEle, ele) {
         var nodeList = curEle.childNodes;
         var ary = [];
