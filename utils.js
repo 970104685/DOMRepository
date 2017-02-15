@@ -259,6 +259,10 @@ var utils = (function () {
         return ary;
     }
 
+    /**
+     * 上一个哥哥元素
+     * @param curEle
+     */
     function prev(curEle) {
         if (flg) {
             return curEle.previousElementSibling;
