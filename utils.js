@@ -217,6 +217,10 @@ var utils = (function () {
         }
     }
 
+    /**
+     * 设置css 
+     * @param curEle
+     */
     function css(curEle) {
         var arg2 = arguments[1];
         if (typeof arg2 === 'string') {
