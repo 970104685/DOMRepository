@@ -303,6 +303,10 @@ var utils = (function () {
         return ary;
     }
 
+    /**
+     * 所有的弟弟元素
+     * @param curEle
+     */
     function nextAll(curEle) {
         var nex = this.next(curEle);
         var ary = [];
@@ -313,6 +317,10 @@ var utils = (function () {
         return ary;
     }
 
+    /**
+     * 所有的兄弟元素
+     * @param curEle
+     */
     function sibling(curEle) {
         var ary = [];
         var pre = this.prev(curEle);
