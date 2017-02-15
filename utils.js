@@ -289,6 +289,10 @@ var utils = (function () {
         return nex;
     }
 
+    /**
+     * 所有的哥哥元素
+     * @param curEle
+     */
     function prevAll(curEle) {
         var pre = this.prev(curEle);
         var ary = [];
