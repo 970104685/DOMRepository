@@ -4,6 +4,6 @@
 ```
 <script src="utils.js"></script>
 ```
-#### project 
+#### project description
 > The same as the jquery project
 
